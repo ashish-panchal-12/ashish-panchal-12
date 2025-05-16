@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.form-container {
+    width: 600px;
+    margin: auto;
+    padding: 25px;
+    border: 2px solid #ccc;
+    background-color: white;
+    box-shadow: 2px 2px 8px #aaa;
+}
+
+h2 {
+    color: #b30000;
+    display: flex;
+    justify-content: center;
+}
+
+label {
+    font-weight: bold;
+    color: red;
+    margin-right: 10px;
+}
+
+.F-M-L-name,
+.Address {
+    margin: 10px;
+    padding: 5px;
+    width: 150px;
+}
+
+#dayinDOB, #percentage {
+    margin: 5px;
+    padding: 4px;
+    width: 60px;
+}
+
+#monthinDOB {
+    margin: 5px;
+    padding: 5px;
+    width: 90px;
+}
+
+.Gender-caste {
+    margin-top: 5px;
+    padding: 5px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+#studyYear, #yearinDOB {
+    margin: 5px;
+    padding: 5px;
+    width: 70px;
+}
+
+#branch {
+    margin: 5px;
+    padding: 5px;
+    width: 220px;
+}
+
+.branch-year {
+    display: flex;
+    gap: 230px;
+}
+
+.past-education-input {
+    margin-top: 10px;
+}
+
+#past-education-detail {
+    display: inline-flex;
+    gap: 260px;
+}
+
+#add {
+    margin: 5px;
+    margin-left: 10px;
+    padding: 5px;
+    width: 320px;
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    margin: 30px 25px;
+    background-color: #b30000;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.personal-info {
+    display: flex;
+    gap: 70px;
+}

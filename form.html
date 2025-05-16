@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form-container">
+        <h2>Student Registration Form</h2>
+        <p><strong>*Fill out the form carefully for registration</strong></p>
+
+        <form>
+            <!-- Name -->
+            <div>  
+                <label>Student Name</label><br>
+                <input type="text" placeholder="First Name" class="F-M-L-name">
+                <input type="text" placeholder="Middle Name" class="F-M-L-name">
+                <input type="text" placeholder="Last Name" class="F-M-L-name">
+            </div>
+            <br>
+            
+            <!-- Personal Information -->
+            <div class="personal-info">
+                <!-- Date of Birth -->
+                <div class="DOB-gender-caste">
+                    <label>Date of Birth</label><br>
+                    <select id="dayinDOB">
+			                <option>Day</option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                            <option>6</option>
+                            <option>7</option>
+                            <option>8</option>
+                            <option>9</option>
+                            <option>10</option>
+                            <option>11</option>
+                            <option>12</option>
+                            <option>13</option>
+                            <option>14</option>
+                            <option>15</option>
+                            <option>16</option>
+                            <option>17</option>
+                            <option>18</option>
+                            <option>19</option>
+                            <option>20</option>
+                            <option>21</option>
+                            <option>22</option>
+                            <option>23</option>
+                            <option>24</option>
+                            <option>25</option>
+                            <option>26</option>
+                            <option>27</option>
+                            <option>28</option>
+                            <option>29</option>
+                            <option>30</option>
+                            <option>31</option>
+		            </select>
+                    <select id="monthinDOB">
+			                <option>Month</option>
+                            <option>January</option>
+                            <option>February</option>
+                            <option>March</option>
+                            <option>April</option>
+                            <option>May</option>
+                            <option>June</option>
+                            <option>July</option>
+                            <option>August</option>
+                            <option>September</option>
+                            <option>October</option>
+                            <option>November</option>
+                            <option>December</option>
+		            </select>
+                    <select id="yearinDOB">
+			                <option>Year</option>
+			                <option>1990</option>
+			                <option>1991</option>
+			                <option>1992</option>
+			                <option>1993</option>
+			                <option>1994</option>
+			                <option>1995</option>
+			                <option>1996</option>
+			                <option>1997</option>
+			                <option>1998</option>
+			                <option>1999</option>
+			                <option>2000</option>
+			                <option>2001</option>
+			                <option>2002</option>
+			                <option>2003</option>
+			                <option>2004</option>
+			                <option>2005</option>
+			                <option>2006</option>
+			                <option>2007</option>
+			                <option>2008</option>
+			                <option>2009</option>
+			                <option>2010</option>
+			                <option>2011</option>
+			                <option>2012</option>
+			                <option>2013</option>
+			                <option>2014</option>
+			                <option>2015</option>
+	                </select>
+                </div>
+
+                <!-- Gender -->
+                <div class="DOB-gender-caste">
+                    <label>Gender</label><br>
+                    <select class="Gender-caste">
+                        <option>Select</option>
+                        <option>Male</option>
+                        <option>Female</option>
+                        <option>Other</option>
+                    </select>
+                </div>
+
+                <!-- Caste -->
+                <div class="DOB-gender-caste">
+                    <label>Caste</label><br>
+                    <select class="Gender-caste">
+                        <option>Select</option>
+                        <option>GENERAL</option>
+                        <option>OPEN</option>
+                        <option>OBC</option>
+                        <option>NT</option>
+                        <option>SC</option>
+                        <option>ST</option>
+                    </select>
+                </div>
+            </div>
+            <br>
+
+            <!-- For SELCTING THE CURRENT BRANCH AND YEAR -->
+            <div class="branch-year">
+                <!-- For Selecting the Branch -->
+                <div>
+                    <label>Branch</label><br>
+                    <select id="branch">
+                        <option>Select</option>
+                        <option>Civil Engineering</option>
+                        <option>Computer Engineering</option>
+                        <option>Information Technology</option>
+                        <option>Mechanical Engineering</option>
+                        <option>Electrical Engineering</option>
+                        <option>Chemical Engineering</option>
+                        <option>Electronics Engineering</option>
+                    </select>
+                </div>
+
+                <!-- For Selecting the Year -->
+                <div>
+                    <label>Year</label><br>
+                    <select id="studyYear">
+                        <option>Select</option>
+                        <option>1 Year</option>
+                        <option>2 Year</option>
+                        <option>3 Year</option>
+                        <option>4 Year</option>
+                    </select>
+                </div>
+            </div>
+            <br>
+
+            <!-- Past Qualification Details -->
+            <div id="past-education-detail">
+                <!-- Past Qualification -->
+                <div>
+                    <label>Past Education</label><br>
+                    <input type="radio" name="edu" class="past-education-input"> 12th
+                    <input type="radio" name="edu"> Diploma
+                </div>
+                
+                <!-- Past Qualification Percentage -->
+                <div class="percentage">
+                    <label>Enter Percentile %</label><br>
+                    <input type="text" size="5" placeholder="_ _ . _ _%" id="percentage">
+                </div>
+            </div>
+            <br><br>
+            
+            <!-- Address -->
+            <div>
+                <label>Address</label><br>
+                <input type="text" placeholder="Address" id="add">
+                <input type="text" placeholder="Street" class="Address">
+            </div>
+            <div>
+                <input type="text" placeholder="City" class="Address">
+                <input type="text" placeholder="State" class="Address">
+                <input type="text" placeholder="Pin Code" class="Address">
+            </div>
+            <div>
+                <input type="email" placeholder="Email" class="Address">
+                <input type="text" placeholder="Mobile" class="Address">
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Submit">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
