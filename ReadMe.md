@@ -1,15 +1,3 @@
-<h1 align="center">Hi 👋, I'm Ashish Panchal</h1>
-
-<h3 align="center">
-Full Stack Developer | Python Developer | Django Enthusiast
-</h3>
-
-<p align="center">
-Building scalable web applications, real-time systems, and AI-powered solutions.
-</p>
-
----
-
 ## 🚀 About Me
 
 <h1 align="center">Hi 👋, I'm Ashish Panchal</h1>
