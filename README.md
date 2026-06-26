@@ -152,7 +152,7 @@ Payroll management solution with:
 
 🌐 Portfolio: [My Portfolio](https://ashish-panchal-portfolio.netlify.app/)
 
-📧 Email: your-email@gmail.com
+📧 Email: panchalab12@gmail.com
 
 ---
 
